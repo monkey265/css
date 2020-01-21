@@ -1,9 +1,85 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background-color: #1E90FF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  <p> bla bla </p>
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Emoji</h2>
+<p>EMOJIII,
+i když tu nejsiiii,
+i když tu nejsiii,
+i když tu nejsiiii I když tu nejsi, tak cítím, co cítíš skrz EMOJII, EMOJII, SKRZ EMOJII.
+Bejby, bát se nemusíš, brzy se uvidíme, EMOJII, EMOJII.</p>
+
+<div class="header">
+  <h2>Část 2</h2>
+  
+  <p> Můžou říkat cokoliv, ale mě to nezajímá, ať je to kdokoliv, prostě nezajímá!
+Když vidím musically tvý, hlava mi z toho hrajééé, dávám si znova repeat, DÁVÁM SI ZNOVA REPEAT EJJ!
+Ani auta ani hejt, ani love ani fame, nezmění co k tobě cítím!
+Mobil držím v ruce, jsi ta poslední se kterou si píšu před spaním.
+</p>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">Column</div>
+  <div class="column" style="background-color:#bbb;">Column</div>
+  <div class="column" style="background-color:#ccc;">Column</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
 </html>
