@@ -24,7 +24,18 @@ body {
   a {
   color: hotpink;
 }
-
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 /*  Vytvor 3 stejne sloupce vedle sebe */
 .column {
   float: left;
@@ -72,7 +83,7 @@ body {
 </div>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;"><i class="fas fa-cloud"></i>
+  <div class="column" style="background-color:#DCDF1C;"><i class="fas fa-cloud"></i>
 <i class="fas fa-heart"></i>
 <i class="fas fa-car"></i>
 <i class="fas fa-file"></i>
@@ -85,7 +96,11 @@ body {
   </div>
   
   
-  <div class="column" style="background-color:#ccc;">Column</div>
+  <div class="column" style="background-color:#ccc;">
+    <button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button"></div>
   
   
 </div>
