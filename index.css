@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<title>CSS Ridico</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background-color: #1E90FF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+  a {
+  color: hotpink;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+  .button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+/*  Vytvor 3 stejne sloupce vedle sebe */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Vymaze floaty za sloupci */
+.row:after {
+  content: "";
+  display: table;
+  <p> bla bla </p>
+  clear: both;
+}
+
+/* Style pro footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsivní layout */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Priklad</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio.</p>
+
+<div class="header">
+  <h2>Část 2</h2>
+  
+ <p>
+   Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Etiam quis quam. In dapibus augue non sapien. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+   
+   
+</p>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#DCDF1C;"><i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i></div>
+  
+  
+  <div class="column" style="background-color:#bbb;">
+  <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+  
+  </div>
+  
+  
+  <div class="column" style="background-color:#ccc;">
+    <button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+    <button class="button button1">Green</button>
+<button class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+<input type="button" class="button" value="Input Button"></div>
+  
+  
+</div>
+
+<div class="footer">
+  <p>©2020 Josef Cada @Creative commons</p>
+</div>
+
+</body>
+</html>
